@@ -1,0 +1,14 @@
+.migaleria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; 
+    
+}
+
+.imagen-migaleria{
+    width: 300px;   
+}
+
+h1{
+    text-align: center;
+}
