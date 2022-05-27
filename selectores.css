@@ -1,0 +1,35 @@
+*{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+
+.boton{
+    width: 150px;
+    height: 60px;
+    font-size:medium;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+.boton::before{
+    content:'Pasa por encima';
+}
+
+.boton:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 128, 0);
+}
+
+.boton:active::before{
+    background-color: bisque;
+    content:'Hecho!';
+    color:rgb(226, 141, 43);
+    padding-block: 20px;
+    padding-left: 45px;
+    padding-right: 40px;
+    
+
+}
+
